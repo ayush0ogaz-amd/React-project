@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-
-export default function Counter() {
+ function Counter() {
   // Initialize state at 0
   const [count, setCount] = useState(0);
+
 
   return (
     <div className="text-center my-4 p-3 border rounded" style={{ maxWidth: '450px', margin: '0 auto' }}>
@@ -37,3 +37,5 @@ export default function Counter() {
     </div>
   );
 }
+
+export default Counter;
